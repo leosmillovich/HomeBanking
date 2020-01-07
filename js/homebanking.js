@@ -30,7 +30,6 @@ window.onload = function () {
 function sumarDinero(dinero) {
     saldoAnterior = saldoCuenta;
     saldoCuenta += dinero;
-
 }
 
 function restarDinero(dinero) {
