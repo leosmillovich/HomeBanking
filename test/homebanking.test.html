@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/mocha@5.2.0/mocha.css" rel="stylesheet" />
+    <title>Testing HomeBanking</title>
+</head>
+
+<body>
+    <div id="mocha"></div>
+    
+    <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha@5.2.0/mocha.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script type="text/javascript" src="../js/homebanking.js"></script>
+    <script type="text/javascript" src="homebanking.test.js"></script>
+    
+
+    <script>
+        window.onload = function () {
+            mocha.run()
+        };
+    </script>
+</body>
+
+</html>
